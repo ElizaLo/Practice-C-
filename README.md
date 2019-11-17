@@ -1,3 +1,10 @@
+# C++
+
+## Compiler
+
+- **Clang** (in Xcode)
+   - [Clang 10 documentation](https://clang.llvm.org/docs/ClangCommandLineReference.html)
+
 # **Different projects on C++ :**
 
 - ## **Processes. Parallelism**
@@ -12,3 +19,10 @@
       - Find only those words, which consists of non-repeating letters.
    - [Code](https://github.com/ElizaLo/Practice-C-/blob/master/Text%20Analyzer/main.cpp)
    - [Labs](http://ttp.infosoft.ua/sp/lr1.htm)
+
+## Problems
+
+**Problem:**
+`-bash: ./configure: /bin/sh^M: bad interpreter: No such file or directory`
+- **Solution:**
+`sed -i '' $'s/\r//' configure`
